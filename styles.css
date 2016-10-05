@@ -33,9 +33,7 @@ ol, ul {
 	list-style: none;   
 }
 nav{
-/*    outline: solid 1px pink;*/
-    margin-bottom:20px;
-    margin-left:10px;
+    margin-left: 10px;
 }
 nav a{
 
@@ -82,6 +80,7 @@ h1{
 h2{
     font-size: 1.3em;
     margin-bottom:10px;
+
 }
 .flex_description{
     width:33%;
