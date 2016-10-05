@@ -30,15 +30,20 @@ body {
 
 }
 ol, ul {
-	list-style: none;
-    
-    
+	list-style: none;   
 }
-nav li{
+nav{
+/*    outline: solid 1px pink;*/
+    margin-bottom:20px;
+    margin-left:10px;
+}
+nav a{
+
     display: inline;
     font-weight:300;
     padding-right:10px;
 /*    outline: 1px solid red;*/
+}
 }
 blockquote, q 
 {
@@ -92,11 +97,6 @@ h2{
     width:100%;
     height:auto;
 }
-nav{
-/*    outline: solid 1px pink;*/
-    margin-bottom:20px;
-    margin-left:10px;
-}
 a:hover{
     text-decoration: underline;
 }
@@ -115,13 +115,12 @@ footer{
     margin-bottom:10px;
     text-align: center;
     font-size: .8em;
-    border-top: 1px solid black;
-    padding-top: 8px;
+/*    border-top: 1px solid black;
+*/    padding-top: 8px;
 }
 p{
     line-height: 1.3em;
 }
 #bio{
-    outline:1px solid red;
-    
-}
+/*    outline:1px solid red;   
+*/}
